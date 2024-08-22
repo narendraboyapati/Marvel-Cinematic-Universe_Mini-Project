@@ -1,0 +1,470 @@
+/* Narendra Boyapati, 8901531 */
+
+.container {
+    width: 1140px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d3deea;
+
+}
+
+.logotitle {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 0px;
+
+}
+
+.logotitle img {
+    width: 170px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #1d3f64;
+    text-align: center;
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+    color: #79b1ed;
+    padding: 5px;
+}
+
+
+ul,
+li {
+    list-style: none;
+    padding: 0px 50px;
+    text-align: center;
+    font-size: 17px;
+    font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+
+}
+
+nav ul {
+    background-color: #333;
+    display: flex;
+}
+
+nav ul a {
+    margin-left: 50px;
+}
+
+a:focus {
+    color: #e60000;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #a3d8cf;
+}
+
+/* Sub-menu styles */
+nav ul li ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+}
+
+nav ul li:hover ul.sub-menu {
+    display: block;
+}
+
+nav ul li ul.sub-menu li {
+    border-bottom: 1px solid #444;
+}
+
+nav ul li ul.sub-menu li:last-child {
+    border-bottom: none;
+}
+
+nav ul li ul.sub-menu li a {
+    padding: 10px 20px;
+}
+
+.homeimage img {
+    width: 1140px;
+}
+
+.aboutmarvel {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #554aa9;
+}
+
+.aboutmarvel h2 {
+    color: #2b1cfa;
+}
+
+.aboutstanlee h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #f50a0a;
+}
+
+.aboutstanlee p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.aboutspidey h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: #f50a0a;
+}
+
+.aboutspidey p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+
+.stanlee {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+
+}
+
+.spiderman {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+
+}
+
+.stanlee img {
+    width: 380px;
+    height: 350px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.spiderman img {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    width: 380px;
+}
+
+.awesomline {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #763333;
+}
+
+.upcoming h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #2b1cfa;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.cards li {
+    margin-right: 20px;
+}
+
+.nextmovies1,
+.nextmovies2,
+.nextmovies3 {
+    display: flex;
+    flex-flow: column;
+    border: 2px solid #5171b4;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #3e4fbc;
+}
+
+.nextmovies1 h3,
+.nextmovies2 h3,
+.nextmovies3 h3 {
+    margin: 20px 0 0 0;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.nextmovies1 button,
+.nextmovies2 button,
+.nextmovies3 button {
+    margin-top: auto;
+    background-color: #3355b0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nextmovies1 a,
+.nextmovies2 a,
+.nextmovies3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.nextmovies1 img,
+.nextmovies2 img,
+.nextmovies3 img {
+    width: 270px;
+    margin-left: 20px;
+}
+
+.nextmovies1 li {
+    list-style: decimal;
+}
+
+.nextmovies2 li {
+    list-style: disc;
+}
+
+.nextmovies3 li {
+    list-style-type: square;
+}
+
+.menuboxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #91a5bd;
+    height: 250px;
+    width: 1120px;
+    margin-left: 10px;
+
+}
+
+.menu1,
+.menu2,
+.menu3 {
+    margin-left: 100px;
+    align-items: center;
+    padding-top: 30px;
+
+
+}
+
+.menu1 li,
+.menu2 li,
+.menu3 li {
+    list-style: none;
+    padding-top: 10px;
+    margin-right: 80px;
+
+
+}
+
+.menu1 a,
+.menu2 a,
+.menu3 a {
+    text-decoration: none;
+}
+
+.menuboxes h3 {
+    margin-left: 30px;
+}
+
+.footer {
+    background-color: #91a5bd;
+    height: 50px;
+    width: 1102px;
+    margin-left: 9px;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.innerpageimage img {
+    width: 1138px;
+
+}
+
+.textonimg {
+    position: absolute;
+    font-weight: bold;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(51, 23, 232);
+    text-shadow: 8px 8px rgb(11, 8, 8);
+
+}
+
+.innerpagecontent h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #f50a0a;
+}
+
+.innerpagecontent p {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.innerpagecontent {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+    font-size: 17px;
+}
+
+.innerpagecontent video {
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+.phasestable h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #f50a0a;
+    font-size: 25px;
+    text-align: center;
+}
+
+table {
+    width: 990px;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+table,
+td,
+th {
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.innerintline h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.userform {
+    border: 2px solid black;
+    justify-content: center;
+    width: 550px;
+    height: 570px;
+    padding-left: 250px;
+    padding-top: 50px;
+    background-color: #d6cfcf;
+    align-items: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #333;
+    font-size: 18px;
+    margin-left: 180px;
+}
+
+.field {
+    margin: 10px 10px;
+    padding-top: 10px;
+}
+
+.field label {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.field textarea {
+    width: 250px;
+    height: 70px;
+    margin-left: 20px;
+
+}
+
+.field input {
+    width: 250px;
+    height: 20px;
+    margin-left: 65px;
+}
+
+.field select {
+    width: 260px;
+    height: 27px;
+    margin-left: 30px;
+}
+
+.fieldradio {
+    padding: 10px;
+}
+
+.marvelfan {
+    padding: 10px;
+}
+
+.herocheck {
+    padding: 10px;
+}
+
+.radiobuttons {
+    padding: 5px;
+    margin-left: 25px;
+}
+
+.herocheck {
+    padding: 5px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.buttonsub button {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #757171;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.contactus h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #763333;
+}
+
+.contactus li {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #444;
+}
+
+.contactimage img {
+    width: 1140px;
+    height: 400px;
+}

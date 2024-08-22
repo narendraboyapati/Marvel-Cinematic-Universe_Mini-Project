@@ -1,0 +1,236 @@
+<!--Narendra Boyapati, 8901531-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>MARVEL</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logotitle">
+                <a href="index.html"> <img src="images/logo1.png" alt="Marvel Logo" width="250px"> </a>
+                <h1>Marvel Cinematic Universe - Narendra Boyapati</h1>
+            </div>
+        </header>
+        <nav>
+            <div class="innernav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="#">MOVIES</a>
+                        <ul class="sub-menu">
+                            <li><a href="#paravideosec">Excelsior</a></li>
+                            <li><a href="#paravideosec">Video</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">TV SHOWS</a>
+                        <ul class="sub-menu">
+                            <li><a href="#tablesec">Phases</a></li>
+                            <li><a href="#formsec">Form</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+
+            <div class="innerpageimage">
+                <img src="images/ironman.jpg" alt="Ironman Image">
+                <div class="textonimg">EXCELSIOR !</div>
+            </div>
+
+            <div id="paravideosec">
+                <div class="innerpagecontent">
+                    <div>
+                        <h2>What is "Excelsior" ?</h2>
+                        <p>“Excelsior” has long been Lee's catchphrase. In the mid-1960s, not long after
+                            Atlas Comics rebranded as Marvel, Lee wrote a monthly column for the comics
+                            publisher in which he'd sign off with “Excelsior!”—a Latin word meaning “ever
+                            upward.” He told io9 in 2007 that he wanted a unique word to himself that his
+                            rivals at the time wouldn't be tempted to copy.<br><br>Lee, a singular figure in
+                            American entertainment who was responsible for much of the Marvel superhero
+                            universe we know today, has demonstrated the meaning of “Excelsior!” throughout
+                            his life. He was renowned for his relentless imagination, pioneering spirit, and a heroic
+                            work ethic.
+                            The writer had worked well into his 90s, and in the last decade alone, he started
+                            an imprint for kids, published a graphic novel, and was reportedly writing a
+                            superhero rock opera.</p>
+                    </div>
+                    <div>
+                        <video controls poster="/images/poster.jpg">
+                            <source src="media/Marvel.mp4" ype="video/mp4">
+                            Your browser does not support the video tag
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="tablesec">
+                <div class="phasestable">
+                    <h3>Phases of Marvel</h3>
+                    <table>
+                        <tr class="phase">
+                            <th>PHASE 1</th>
+                            <th>PHASE 2</th>
+                            <th>PHASE 3</th>
+                            <th>PHASE 4</th>
+                        </tr>
+                        <tr class="phase">
+                            <td>Avengers</td>
+                            <td>Ant Man</td>
+                            <td>Black Panther</td>
+                            <td>Shang-Chi</td>
+                        </tr>
+                        <tr class="phase">
+                            <td>Iron Man 1</td>
+                            <td>Iron Man 2</td>
+                            <td>Doctor Strange</td>
+                            <td>SpiderMan</td>
+                        </tr>
+                        <tr class="phase">
+                            <td>Thor 1</td>
+                            <td>Thor 2</td>
+                            <td>Infinity War</td>
+                            <td>Black Widow</td>
+                        </tr>
+                        <tr class="phase">
+                            <td>Captain America</td>
+                            <td>GOTG</td>
+                            <td>Endgame</td>
+                            <td>Eternals</td>
+                        </tr>
+                    </table>
+
+
+                </div>
+            </div><br>
+
+            <div id="formsec">
+                <div class="innerintline">
+                    <h3>Tell Us about the super hero in you !</h3>
+                </div>
+
+
+                <div class="userform">
+                    <form>
+                        <div class="field">
+                            <label>Name</label>
+                            <input type="text" id="name">
+                        </div>
+
+                        <div class="field">
+                            <label>Email</label>
+                            <input type="email" id="email">
+                        </div>
+
+                        <div class="field">
+                            <label>Character</label>
+                            <select class="chardropdown">
+                                <option></option>
+                                <optgroup label="Heros">
+                                    <option>IronMan</option>
+                                    <option>SpiderMan</option>
+                                    <option>Thor</option>
+                                    <option>Captian America</option>
+                                    <option>StarLord</option>
+                                    <option>Hulk</option>
+                                </optgroup>
+
+                                <optgroup label="villains">
+                                    <option>Thanos</option>
+                                    <option>Ultron</option>
+                                    <option>Loki</option>
+                                    <option>Kang</option>
+                                    <option>RedSkull</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="field">
+                            <label>About Hero</label>
+                            <textarea id="about"></textarea>
+                        </div>
+
+                        <div class="marvelfan">
+                            <label>Are you a fan of Marvel Movies?</label>
+                            <div class="radiobuttons"><br>
+                                <input type="radio" id="option1" name="options" value="Option 1">
+                                <label for="option1">YES</label><br>
+
+                                <input type="radio" id="option1" name="options" value="Option 1">
+                                <label for="option1">NO</label><br>
+                            </div>
+
+                        </div>
+                        <div calss="field">
+                            <label>Who is your Favourite Superhero ?</label><br>
+                            <div class="herocheck">
+                                <input type="checkbox">IronMan</input><br>
+                                <input type="checkbox">SpiderMan</input><br>
+                                <input type="checkbox">Thor</input><br>
+                                <input type="checkbox">Hulk</input><br>
+                            </div>
+                        </div>
+
+                        <div class="buttonsub">
+                            <button type="reset">Reset</button>
+                            <button type="submit">Submit</button>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+
+
+            <div id="menusec">
+                <div class="menuboxes">
+                    <article class="menu1">
+                        <h3>Top Movies</h3>
+                        <ul>
+                            <li><a href="">Avengers</a></li>
+                            <li><a href="">SpiderMan</a></li>
+                            <li><a href="">IronMan</a></li>
+                        </ul>
+                    </article>
+                    <article class="menu2">
+                        <h3>Top TV Shows</h3>
+                        <ul>
+                            <li><a href="">Loki</a></li>
+                            <li><a href="">MoonKnight</a></li>
+                            <li><a href="">Daredevil</a></li>
+                        </ul>
+                    </article>
+                    <article class="menu3">
+                        <h3>Top Games</h3>
+                        <ul>
+                            <li><a href="">SpiderMan</a></li>
+                            <li><a href="">Avengers</a></li>
+                            <li><a href="">Wolverine</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer">
+                <P>&copy; Copyright - Narendra Boyapati - 2023 </P>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
